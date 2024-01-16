@@ -1,3 +1,33 @@
+/* This are some utility classes */
+.flex{
+    display: flex;
+}
+.red-border{
+    border: 2px solid red;
+}
+.green-border{
+    border: 2px solid green;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: -40px;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.visible{
+    visibility: visible;
+}
 body {
 	padding: 10px;
 	margin: 0;
@@ -6,3 +36,12 @@ body {
 	line-height: 1.6;
 	font-size: 18px;
 }
+body{
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:  "Montserrat", sans-serif;
+    color:#000;
+}
+/* write your code from here */
